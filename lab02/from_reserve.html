@@ -8,20 +8,55 @@
 <body>
  <h3>Hotel Booking</h3>
  <form method="POST" action="https://angsila.cs.buu.ac.th/~wittawas/632/88726059/lab02/afile.php">
- <label for="roomtype">Room Type:</label>
+ <label for="room tpye">Room Type:</label>
  <select name="emotion">
-     <option value="0">Please Select</option>
-     <option value="1">Standard</option>
-     <option value="2">Luxury</option>
-     <option value="3">Deluxe</option>
-     </select>
-
-<br><br>
-<label for="numguest">Number of Guests:</label>
-<select name="emotion">
     <option value="0">Please Select</option>
-    <option value="1-2">1-2</option>
-    <option value="3-4">3-4</option>
-    <option value="5-6">5-6</option>
-    <option value="7-8">7-8</option>
+    <option value="1">Standard</option>
+    <option value="2">Luxury</option>
+    <option value="3">Deluxe</option>
     </select>
+    
+ <br><br>
+ <label for="numguest">Number of Guests:</label>
+ <select name="emotion">
+    <option value="0">Please Select</option>
+    <option value="1">1-2</option>
+    <option value="2">3-4</option>
+    <option value="3">5-6</option>
+    <option value="3">7-8</option>
+    </select>
+    
+ <br><br>
+
+ <label for="numguest">Name:</label>
+ <input type="text" placeholder="First" name="fname" id="fname">
+ <input type="text" placeholder="Last" name="lname" id="lname">
+ <br><br>
+ <label for="email">Email:</label>
+ <input type="text" placeholder="john@company.com" name="email" id="email">
+ <br><br>
+ <label for="">Arrival:</label>
+ <input type="date" id="myDate" value="MM/DD/YYYY">
+ <input type="date" id="myDate" value="HH : MM">
+ <br><br>
+
+ <label for="">Departure:</label>
+ <input type="text" placeholder="MM/DD/YYYY"  name="departuredate" id="departuredate">
+ <input type="text" placeholder="HH : MM" name="departuretime" id="departuretime">
+ <br><br>
+ 
+ <label for="">Free Pickup:</label>
+ <input type="radio" name="pickup" id="pickup" value="Yes">Yes, Sure! <br>
+ <input type="radio" name="pickup" id="pickup" value="No">No, I already rented a cal.
+ <br><br>
+ <label for="email">Flight Number:</label>
+ <input type="text" placeholder="C1209" name="flightnum" id="flightnum">
+ <br><br>
+ 
+ Other requests:<br>
+ <Textarea name="otherreq" id="otherreq" rows="5" cols="50"></Textarea>
+ <br><br>
+ <input type="submit" value="Complete Reservation">
+ </form>
+</body>
+</html>
